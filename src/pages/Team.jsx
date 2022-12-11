@@ -37,7 +37,7 @@ const members = [
 const Team = () => {
   return (
     <div>
-     <h1 className='text-2xl text-center text-indigo-600  pt-4'>OUR TEAM</h1>
+     <h1 className='text-2xl text-center text-indigo-600  m-5'>OUR TEAM</h1>
      <div className=' grid md:grid-cols-3 sm:grid-cols-1 gap-2 py-4 mt-4 h-full w-full '>
       
         {members.map((member)=>{
