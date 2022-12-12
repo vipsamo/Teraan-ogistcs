@@ -14,7 +14,7 @@ const About = () => {
         <p className=' p-4'>Tere Investments company limited is a south sudanese company fully registered under the chambers of commerce and its main office located at munuki suk libya</p>
         <p className='p-4'>And Our company is engaged in supply of office stationaries, food and non-food items, cleaning services, agricultural tools and seeds, and furniture</p>
         <p className='p-4'>The staff at Tere investments ltd have a great exprience in the field of general supply of both food and non-food stuff, agricultural tools and produce and general merchandise.</p>
-        <p>Tere investments is more than a supplier, we can also provide specialised expertise, advice and support to satisfy the demands of the industry and work as a partner, to provide the right solution on time</p>
+        <p className='p-4'>Tere investments is more than a supplier, we can also provide specialised expertise, advice and support to satisfy the demands of the industry and work as a partner, to provide the right solution on time</p>
       </div>
     </div>
     <div className=' grid md:grid-cols-2 sm:grid-cols-1 gap-8 py-8 h-full w-full '>
