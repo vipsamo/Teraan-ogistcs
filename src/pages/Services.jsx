@@ -31,19 +31,23 @@ const services = [
 
 export default function Services() {
   return (
-    <div className="bg-zinc-100 py-24 sm:py-20 lg:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="sm:text-center">
-          <h2 className="text-2xl font-semibold leading-8 text-indigo-600">SERVICES</h2>
+    <div>
+      <div className="sm:text-center">
+          <h2 className="text-2xl font-semibold leading-8 text-indigo-600 m-8 p-4">SERVICES</h2>
          
         </div>
+   
+    <div className="bg-zinc-100 py-4  ">
+      
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        
 
         <div className="mt-20 max-w-lg sm:mx-auto md:max-w-none">
           <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
             {services.map((service) => (
               <div key={service.name} className="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row hover:bg-zinc-200  hover:rounded p-4 cursor-pointer">
-                <div className="flex h-40 w-full items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0">
-                  <img src={service.img} alt="" className='h-full w-full' />
+                <div className="flex h-full md:h-40  w-full  md:w-40 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0">
+                  <img src={service.img} alt="" className='h-full w-full rounded' />
                 </div>
                 <div className="sm:min-w-0 sm:flex-1">
                   <p className="text-lg font-semibold leading-8 text-gray-900">{service.name}</p>
@@ -55,6 +59,7 @@ export default function Services() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

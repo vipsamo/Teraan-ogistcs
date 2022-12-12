@@ -4,7 +4,7 @@ import Background from '../components/Background'
 const About = () => {
   return (
      <div>
-       <h1 className='text-center text-2xl text-indigo-600 p-4 m-8'>ABOUT US</h1>
+       <h1 className='text-2xl font-semibold leading-8 text-indigo-600 m-8 p-4 text-center'>ABOUT US</h1>
     <div className='grid md:grid-cols-2 bg-zinc-100'>
       <div>
          <img src={bg} alt="" className='w-full bg-cover h-full p-4' />

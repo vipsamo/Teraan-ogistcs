@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
   <div className=''>
-      <h1 className='text-center text-2xl text-indigo-600 p-4'>CONTACT US</h1>
+      <h1 className='text-2xl font-semibold leading-8 text-indigo-600 m-8 p-4 text-center'>CONTACT US</h1>
     <div className='grid grid-cols-1 md:grid-cols-2 gap-10 m-5' >
       
       <div className='bg-zinc-100 p-5 rounded-md '>
