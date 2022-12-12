@@ -48,7 +48,7 @@ export default function Nav() {
           <nav className="flex h-10 pb-4 items-center justify-between" aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <div className="-m-1.5 p-1.5">
-                <span className="text-2xl text-indigo-500 text-bold border-b-2 border-indigo-600">Teraan</span>
+                <span className="text-2xl text-indigo-500 text-bold border-b-2 border-indigo-600">Tere</span>
                 {/* <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
               </div>
             </div>

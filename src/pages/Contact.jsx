@@ -40,12 +40,16 @@ const Contact = () => {
           <h1 className='text-indigo-600 p-2'>Telephone number</h1>
           <div className="flex p-1 gap-2 ">
          <div className="text-indigo-500 size-20"><FaPhone/></div>
-          <p className="flex flex-col"> +211925683457</p>
+          <p className="flex flex-col"> +211920833378</p>
           </div>
           
           <div className="flex p-1 gap-2 ">
          <div className="text-indigo-500 size-20"><FaPhone/></div>
-          <p className="flex flex-col"> +211925683457</p>
+          <p className="flex flex-col"> +211917216374</p>
+          </div>
+          <div className="flex p-1 gap-2 ">
+         <div className="text-indigo-500 size-20"><FaPhone/></div>
+          <p className="flex flex-col"> +211922825778</p>
           </div>
           
         </div>
@@ -53,17 +57,14 @@ const Contact = () => {
           <h1 className='text-indigo-600 p-2'>E-Mail</h1>
           <div className="flex p-1 gap-2 ">
          <div className="text-indigo-500 size-20"><FaEnvelope/></div>
-          <p className="flex flex-col"> mulujisamuel@gmail.com</p>
+          <p className="flex flex-col"> tereinvestment@gmail.com</p>
           </div>
-          <div className="flex p-1 gap-2 ">
-         <div className="text-indigo-500 size-20"><FaEnvelope/></div>
-          <p className="flex flex-col"> mulujisamuel@gmail.com</p>
-          </div>
+          
         </div>
         <div>
           <h1 className='text-indigo-600 p-2'>Our address</h1>
           <div>
-            <p>located at munuki, miya saba road opposite sport 5</p>
+            <p>We Located at munuki, Suk Libya</p>
           </div>
         </div>
       </div>
@@ -107,7 +108,7 @@ const Contact = () => {
                 
                 required
               ></textarea>
-              <button value='send' className='bg-indigo-400 hover:bg-indigo-600 rounded-md p-2 cursor-pointer z-13'><ToastContainer/>submit</button>
+              <button value='send' className='bg-indigo-400 hover:bg-indigo-600 rounded-md p-2 cursor-pointer z-13'><ToastContainer/>send</button>
           </form>
         </div>
       </div>

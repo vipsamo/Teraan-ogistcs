@@ -36,15 +36,23 @@ const Footer = () => {
           <h1 className="pt-2 pb-4 text-4xl ">FIND US</h1>
           <div className="flex  gap-2 p-1 ">
          <div className="text-indigo-500 size-20"><  FaPeriscope/></div>
-          <p className="flex flex-col">  located at juba munuki</p>
+          <p className="flex flex-col">  Located at munuki, Suk Libya</p>
           </div>
           <div className="flex p-1 gap-2 ">
          <div className="text-indigo-500 size-20"><FaPhone/></div>
-          <p className="flex flex-col"> +211925683457</p>
+          <p className="flex flex-col"> +211920833378</p>
+          </div>
+          <div className="flex p-1 gap-2 ">
+         <div className="text-indigo-500 size-20"><FaPhone/></div>
+          <p className="flex flex-col"> +211917216374</p>
+          </div>
+          <div className="flex p-1 gap-2 ">
+         <div className="text-indigo-500 size-20"><FaPhone/></div>
+          <p className="flex flex-col"> +211922825778</p>
           </div>
           <div className="flex p-1 gap-2 ">
          <div className="text-indigo-500 size-20"><FaEnvelope/></div>
-          <p className="flex flex-col"> mulujisamuel@gmail.com</p>
+          <p className="flex flex-col"> tereinvestment@gmail.com</p>
           </div>
 
         </div>
@@ -67,7 +75,7 @@ const Footer = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
       text-center pt-2 text-gray-400 text-sm pb-8"
       >
-        <span>© vipsamo 2022. All rights reserved.</span>
+        <span>© Tere investment co.ltd 2022. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
        <div>
        <span

@@ -19,7 +19,7 @@ const Hero = () => {
                <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                  <div className="relative z-13 overflow-hidden rounded-full  px-4 text-sm leading-6 ring-1 ring-zinc-100 hover:ring-gray-900/20">
                    <span className="text-gray-100">
-                    About Teeran.{' '}
+                    About Tere.{' '}
                      <Link to="/about" className="font-semibold text-indigo-600">
                        <span className="absolute inset-0" aria-hidden="true" />
                      Read more 
@@ -29,15 +29,25 @@ const Hero = () => {
             </div>
             <div>
               <h1 className="text-4xl mt-0 text-zinc-100 font-bold tracking-tight text-center sm:text-6xl">
-                Teeran logistic co.ltd
+                Tere Investments company ltd
               </h1>
               <p className="mt-6 text-lg text-zinc-100 font-semibold leading-8  text-center">
                Deals in ...
                <TypeAnimation
       sequence={[
-        'Logistics and supply', // Types 'One'
+        'General supply of Goods', // Types 'One'
         2000, // Waits 1s
-        'Machinery supply', // Deletes 'One' and types 'Two'
+        'Hand washing Facilities', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'Tailoring services', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'Cars for hire', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'Installation services', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'School desk', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'Cleaning itemss', // Deletes 'One' and types 'Two'
         2000, // Waits 2s
         'Printing and graphics design', 2000,// Types 'Three' without deleting 'Two'
         
