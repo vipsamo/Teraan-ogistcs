@@ -42,7 +42,7 @@ const Team = () => {
       
         {members.map((member)=>{
           return(
-<div className="card bg-zinc-100 m-4 rounded-lg shadow-sm my-3 py-4">
+<div className="card bg-zinc-100 m-4 rounded-lg shadow-sm  py-4">
 <img src ={member.profile} alt="" className='w-24 h-24 rounded-lg object-cover mx-auto ' />
         <h1 className='text-indigo-600 text-center font-bold pt-2'>{member.name}</h1>
         <p className='ml-10 font-semibold text-zinc-600 '>POSITION: {member.position} </p>
