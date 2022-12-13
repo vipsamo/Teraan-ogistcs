@@ -35,7 +35,7 @@ const Hero = () => {
                Deals in ...
                <TypeAnimation
       sequence={[
-        'General supply of Goods', // Types 'One'
+        'General supply of Goods and services', // Types 'One'
         2000, // Waits 1s
         'Hand washing Facilities', // Deletes 'One' and types 'Two'
         2000, // Waits 2s

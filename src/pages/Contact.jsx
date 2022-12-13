@@ -1,6 +1,6 @@
 import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
-import {  FaEnvelope,FaPhone } from "react-icons/fa";
+import {  FaEnvelope,FaPhone,FaPeriscope } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -63,8 +63,9 @@ const Contact = () => {
         </div>
         <div>
           <h1 className='text-indigo-600 p-2'>Our address</h1>
-          <div>
-            <p>We Located at munuki, Suk Libya</p>
+          <div className="flex p-1 gap-2 ">
+          <div className="text-indigo-500 size-20"><  FaPeriscope/></div>
+          <p className="flex flex-col"> We Located at munuki, Suk Libya</p>
           </div>
         </div>
       </div>

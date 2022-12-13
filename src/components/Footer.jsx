@@ -61,10 +61,17 @@ const Footer = () => {
         <div>
           <h1 className="pt-2 pb-4 text-4xl ">OUR SERVICES</h1>
           <div >
-            <p className="p-1">General trading and supply</p>
-            <p className="p-1">Agriculture supplies</p>
-            <p className="p-1">Graphics design</p>
-            <p className="p-1">machinery supplies</p>
+            <p className="p-1">General supply of goods and services</p>
+            <p className="p-1">Office Stationary</p>
+            <p className="p-1">Office Furniture</p>
+            <p className="p-1">Relief Items</p>
+            <p className="p-1">Agricultural tools and seeds</p>
+            <p className="p-1">Cleaning items</p>
+            <p className="p-1">Hardware and Home Appliences</p>
+            <p className="p-1">Tailoring Services</p>
+            <p className="p-1">Cars for Hire</p>
+            <p className="p-1">Installation Services</p>
+            <p className="p-1">School Desk</p>
           </div>
           
 
