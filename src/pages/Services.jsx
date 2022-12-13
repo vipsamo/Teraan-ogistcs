@@ -2,6 +2,17 @@ import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroi
 import Readmore from '../components/Readmore'
 import graphic from '../assets/graphics.jpg'
 import trading from '../assets/trading.jpg'
+import stationary from '../assets/stationary.jpg'
+import relief from '../assets/relief.jpg'
+import furniture from '../assets/furniture.jpg'
+import agriculture from '../assets/agriculture.jpg'
+import cleaning from '../assets/cleaning.jpg'
+import appliance from '../assets/appliance.jpg'
+import car from '../assets/car.jpg'
+import installation from '../assets/installation.jpg'
+import desk from '../assets/desk.jpg'
+
+
 
 const services = [
   {
@@ -11,21 +22,58 @@ const services = [
     img: trading,
   },
   {
-    name: 'Agricultural supply', 
+    name: 'Office Stationary', 
     description:
       'lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    img: trading,
+    img: stationary,
   },
   {
-    name: 'Graphics design and printing',
+    name: 'Office Furniture',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',img: graphic,
-  },
+      img:furniture,
+    },
   {
-    name: 'Machinery supply',
+    name: 'Relief Items',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    img:graphic,
+    img:relief,
+  },
+  {
+    name: 'Agricultural tools and seeds',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    img:agriculture,
+  },
+  {
+    name: 'Cleaning Items',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    img:cleaning,
+  },
+  {
+    name: 'Hardware & Home Appliences',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    img:appliance,
+  },
+  {
+    name: 'Cars for Hire',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    img:car,
+  },
+  {
+    name: 'Installation Services',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    img:installation,
+  },
+  {
+    name: 'School Desk',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    img:desk,
   },
 ]
 
