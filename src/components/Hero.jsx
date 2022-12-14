@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Hero = () => {
 
   return (
-    <div className=' ' style={{ backgroundImage:`url(${hero})`, backgroundRepeat:"no-repeat",backgroundPosition: 'center', backgroundSize:'cover,contain', backgroundColor: '#cccccc', }}>
+    <div className=' ' style={{ backgroundImage:`url(${hero})`, backgroundRepeat:"no-repeat",backgroundPosition: 'center', backgroundSize:'cover', backgroundColor: '#cccccc', }}>
       <div className='bg-gradient-to-r from-black h-[350px] sm:h-[550px]  '>
        
       
