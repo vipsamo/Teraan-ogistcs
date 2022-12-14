@@ -7,6 +7,7 @@ import Services from './pages/Services'
 import About from './pages/About';
 import Nav from './components/Nav'
 import { Routes, Route, } from "react-router-dom";
+import Clients from './pages/Clients';
 function App() {
   return (
     <div >
@@ -19,6 +20,7 @@ function App() {
       <Route path="/contact" element={<Contact/>} />
       <Route path="/team" element={<Team/>} />
       <Route path="/services" element={<Services/>} />
+      <Route path="/clients" element={<Clients/>} />
       </Routes>
       <Footer/>
      

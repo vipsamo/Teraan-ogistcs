@@ -81,7 +81,7 @@ export default function Services() {
   return (
     <div>
       <div className="sm:text-center">
-          <h2 className="text-2xl font-semibold leading-8 text-indigo-600 m-8 p-4">SERVICES</h2>
+          <h2 className="text-2xl font-semibold leading-8 text-indigo-600 m-8 p-4">OUR SERVICES</h2>
          
         </div>
    

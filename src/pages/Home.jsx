@@ -1,13 +1,13 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import HomeServices from '../components/HomeServices'
+import Services from '../pages/Services'
 
 const Home = () => {
  
   return (
     <div>
       <Hero/>
-      <HomeServices/>
+      <Services/>
     </div>
   )
 }

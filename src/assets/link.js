@@ -9,6 +9,7 @@ const links=[
         title:"  About",
         path:"/about"
     },
+    
     {
         id:3,
         title:"Services",
@@ -16,11 +17,16 @@ const links=[
     },
     {
         id:4,
+        title:"Clients",
+        path:"/clients"
+    },
+    {
+        id:5,
         title:"Team",
         path:"/team"
     },
     {
-        id:5,
+        id:6,
         title:"Contact",
         path:"/contact"
     }
