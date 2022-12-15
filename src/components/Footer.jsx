@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollToTop from "react-scroll-to-top";
+import brochure from '../assets/pdf/brochure.pdf'
 
 import { FaFacebookSquare,FaTwitter,FaInstagramSquare,FaPeriscope, FaEnvelope,FaPhone } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -16,6 +17,9 @@ const Footer = () => {
          
         </h1>
         <div>
+          <a href={brochure}
+          download
+          >
           <button
             className="bg-indigo-400 hover:bg-indigo-500 duration-300 px-5 py-2.5 font-[Poppins]
            rounded-md text-white md:w-auto w-full"
@@ -23,6 +27,7 @@ const Footer = () => {
           >
            Download
           </button>
+          </a>
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 sm:px-8 px-5 m-8  py-5 ">
