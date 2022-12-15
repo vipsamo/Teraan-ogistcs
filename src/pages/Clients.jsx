@@ -38,7 +38,7 @@ const Clients = () => {
        <div className='grid md:grid-cols-5 gap-4 m-4'>
         {
           clients.map((client)=>(
-            <div className='bg-white h-40'>
+            <div className='bg-white h-40 shadow-lg rounded-lg'>
               <img src={client.img} alt="" className='h-full w-full p-4 object-contain' />
             </div>
           ))
