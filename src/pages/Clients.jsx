@@ -3,7 +3,7 @@ import nonviolent from '../assets/clients/nonviolent.png'
 import acted from '../assets/clients/acted.png'
 import healthlink from '../assets/clients/healthlink.jpeg'
 import nca from '../assets/clients/nca.png'
-import nrc from '../assets/clients/nrc.png'
+import nrc from '../assets/clients/nrc.jpg'
 const Clients = () => {
   const clients=[
   {
@@ -38,8 +38,8 @@ const Clients = () => {
        <div className='grid md:grid-cols-5 gap-4 m-4'>
         {
           clients.map((client)=>(
-            <div className='bg-zinc-100'>
-              <img src={client.img} alt="" className='h-full w-full p-4 object-cover' />
+            <div className='bg-white h-40'>
+              <img src={client.img} alt="" className='h-full w-full p-4 object-contain' />
             </div>
           ))
         }
