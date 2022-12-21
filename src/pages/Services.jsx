@@ -1,5 +1,5 @@
-import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
-import Readmore from '../components/Readmore'
+
+// import Readmore from '../components/Readmore'
 import graphic from '../assets/graphics.jpg'
 import trading from '../assets/services/trading.jpg'
 import stationary from '../assets/services/stationary.jpg'
@@ -18,13 +18,13 @@ const services = [
   {
     name: 'General supply of goods and services',
     description:
-      ' lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'We supply all kind of goods and services everywhere around south sudan in time. We supply goods like agricultural products, machineries and so many others',
     img: trading,
   },
   {
     name: 'Office Stationary', 
     description:
-      'lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'We supply office stationary and set them for your office. with all need for your office. ',
     img: stationary,
   },
   {
@@ -66,13 +66,13 @@ const services = [
   {
     name: 'Installation Services',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Tere investment company limited provides installation services in your offices and homes. Installation services like DSTV installaton, camera installation, networking internet devices and many more',
     img:installation,
   },
   {
     name: 'School Desk',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'We supply school desk and school equipments for shools such as nursey schools, primary schools, institutions and universities.',
     img:desk,
   },
 ]
@@ -99,7 +99,7 @@ export default function Services() {
                 </div>
                 <div className="sm:min-w-0 sm:flex-1">
                   <p className="text-lg font-semibold leading-8 text-gray-900">{service.name}</p>
-                  <Readmore className="mt-2 text-base leading-7 text-gray-600">{service.description}</Readmore>
+                  <p className="mt-2 text-base leading-7 text-gray-600">{service.description}</p>
                  
                 </div>
               </div>

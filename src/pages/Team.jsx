@@ -1,34 +1,43 @@
 import React from 'react'
-import samo from '../assets/profile.jpeg'
-import woja from '../assets/bg.jpg'
-import loku from '../assets/vipsamo.jpeg'
+import woja from '../assets/team/woja.jpeg'
+import gloria from '../assets/team/gloria.jpeg'
+import sokiri from '../assets/team/sokiri.jpeg'
+import reida from '../assets/team/reida.png'
+import kenyi from '../assets/team/kenyi.png'
 import { FaEnvelope,FaPhone } from "react-icons/fa";
 const members = [
   {
-    name: 'WOJA PATRICT',
+    name: 'WOJA PATRICK',
     position:'CEO',
     profile:woja,
     tel:'+21192343677',
     email:'smuluji@gmail.com'
   },
   {
-    name: 'MULUJI SAMUEL JACKSON',
+    name: 'MUNIA GLORIA',
     position:'IT PERSONEL',
-    profile:samo,
+    profile:gloria,
     tel:'+21192343677',
     email:'smuluji@gmail.com'
   },
   {
-    name: 'LOKU CHARLES',
+    name: 'SOKIRI EMMANUEL ABRAHAM',
     position:'MARKETING DIRECTOR',
-    profile:loku,
+    profile:sokiri,
     tel:'+21192343677',
     email:'smuluji@gmail.com'
   },
   {
-    name: 'LEMI DAVID',
+    name: 'MANENO REIDA',
     position:'SALES MANAGER',
-    profile:loku,
+    profile:reida,
+    tel:'+21192343677',
+    email:'smuluji@gmail.com'
+  },
+  {
+    name: 'KENYI BOSCO',
+    position:'SALES MANAGER',
+    profile:kenyi,
     tel:'+21192343677',
     email:'smuluji@gmail.com'
   },
@@ -42,9 +51,11 @@ const Team = () => {
       
         {members.map((member)=>{
           return(
-<div className="card bg-zinc-100  rounded-lg shadow-sm  py-4 mb-4 mx-4">
-<img src ={member.profile} alt="" className='w-24 h-24 rounded-lg object-cover mx-auto ' />
-        <h1 className='text-indigo-600 text-center font-bold pt-2'>{member.name}</h1>
+<div className="card bg-zinc-100  rounded-lg shadow-lg  py-4 mb-4 mx-4">
+       
+        <img src ={member.profile} alt="" className='w-24 h-24 rounded-full object-cover mx-auto ' />
+        <h3 className='text-indigo-600  text-center  font-bold p-2 '>{member.name}</h3>
+        
         <p className='ml-10  text-zinc-600 '>POSITION: {member.position} </p>
         <p className='ml-10  text-indigo-600 '>contacts</p>
         <div className="flex  gap-2 ml-10 ">
