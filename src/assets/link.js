@@ -29,6 +29,7 @@ const links=[
         id:6,
         title:"Contact",
         path:"/contact"
-    }
+    },
+   
 ]
  export default links

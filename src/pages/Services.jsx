@@ -30,37 +30,38 @@ const services = [
   {
     name: 'Office Furniture',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',img: graphic,
+      'Tere investment limited supply and install furniture in offices and even homes and appartments',
+      img: graphic,
       img:furniture,
     },
   {
     name: 'Relief Items',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'We supply relief items to affected areas in the country. items like tents, carpets, food, jerycans and many more kind of relief items.',
     img:relief,
   },
   {
     name: 'Agricultural tools and seeds',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'We supply agricultural tools like watering cans, hoes, tractors, pangas and many more tools. And seeds',
     img:agriculture,
   },
   {
     name: 'Cleaning Items',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'We supply cleaning items and services around the country. cleaning items like washing hands facility, spraying and cleaning offices.',
     img:cleaning,
   },
   {
     name: 'Hardware & Home Appliences',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Our company also supply and install hardware and home appliences like water dispensers, gas cookers and all kitchen appliances.',
     img:appliance,
   },
   {
     name: 'Cars for Hire',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'We provide cars and trucks for hire ranging from days to months at a fair price.in addition we can also provide drivers for the hired cars ',
     img:car,
   },
   {
