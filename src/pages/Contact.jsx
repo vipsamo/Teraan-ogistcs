@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import {  FaEnvelope,FaPhone,FaPeriscope } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import GoogleMaps from '../components/GoogleMaps';
 
 const Contact = () => {
   const form = useRef();
@@ -115,6 +116,7 @@ const Contact = () => {
       </div>
       
     </div>
+    <GoogleMaps/>
   </div>
     
   )

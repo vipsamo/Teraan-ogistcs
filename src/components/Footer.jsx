@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
-<ScrollToTop smooth viewBox=" 0 0 0 0" component={<p className="text-indigo-600 flex  justify-center"><FaAngleUp size={30}/></p>} />
+<ScrollToTop smooth   component={<p className="text-indigo-600  flex  justify-center "><FaAngleUp size={30}/></p>} />
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
         <h1
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
