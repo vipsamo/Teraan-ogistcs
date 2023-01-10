@@ -116,6 +116,9 @@ const Contact = () => {
       </div>
       
     </div>
+    <div>
+    <h1 className=' font-semibold leading-8 text-indigo-600  p-4 text-center'>GOOGLE MAP</h1>
+    </div>
     <GoogleMaps/>
   </div>
     
