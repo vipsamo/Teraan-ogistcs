@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from '../assets/bg.jpg'
-import Background from '../components/Background'
+
 const About = () => {
   return (
      <div>

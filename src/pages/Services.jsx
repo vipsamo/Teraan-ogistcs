@@ -1,6 +1,6 @@
 
 // import Readmore from '../components/Readmore'
-import graphic from '../assets/graphics.jpg'
+//import graphic from '../assets/graphics.jpg'
 import trading from '../assets/services/trading.jpg'
 import stationary from '../assets/services/stationary.jpg'
 import relief from '../assets/services/relief.jpg'
@@ -31,7 +31,7 @@ const services = [
     name: 'Office Furniture',
     description:
       'Tere investment limited supply and install furniture in offices and even homes and appartments',
-      img: graphic,
+      
       img:furniture,
     },
   {

@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import navigation from '../assets/link'
+import { NavLink } from 'react-router-dom'
 
 // const navigation = [
 //   { name: 'Product', href: '#' },
@@ -13,6 +14,9 @@ import navigation from '../assets/link'
 
 export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  //const [active,setActive]=useState(false);
+
+  
 
   return (
     <div className="isolate bg-zinc-300  w-full ">
@@ -64,9 +68,9 @@ export default function Nav() {
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 justify-center lg:gap-x-12 text-2xl">
               {navigation.map((item) => (
-                <a key={item.id} href={item.path} className=" text-gray-600 hover:text-gray-500">
+                <NavLink key={item.id} to={item.path}  className={({ isActive }) => (!isActive ? ' text-gray-600 hover:text-gray-500':'text-indigo-600')}>
                   {item.title}
-                </a>
+                </NavLink>
               ))}
             </div>
 
