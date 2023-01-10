@@ -2,12 +2,12 @@ import React from "react";
 import ScrollToTop from "react-scroll-to-top";
 import brochure from '../assets/pdf/brochure.pdf'
 
-import { FaFacebookSquare,FaTwitter,FaInstagramSquare,FaPeriscope, FaEnvelope,FaPhone } from "react-icons/fa";
+import { FaFacebookSquare,FaTwitter,FaInstagramSquare,FaPeriscope, FaEnvelope,FaPhone,FaAngleUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
-      <ScrollToTop smooth className='text-indigo-400 !important'/>
+<ScrollToTop smooth viewBox=" 0 0 0 0" component={<p className="text-indigo-600 flex  justify-center"><FaAngleUp size={30}/></p>} />
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
         <h1
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
@@ -57,26 +57,22 @@ const Footer = () => {
 
         </div>
         </Link>
-        <Link to='./services'>
+        
         <div>
           <h1 className="pt-2 pb-4 text-4xl ">OUR SERVICES</h1>
+          <Link to='./services'>
           <div >
             <p className="p-1">General supply of goods and services</p>
             <p className="p-1">Office Stationary</p>
             <p className="p-1">Office Furniture</p>
             <p className="p-1">Relief Items</p>
-            <p className="p-1">Agricultural tools and seeds</p>
-            <p className="p-1">Cleaning items</p>
-            <p className="p-1">Hardware and Home Appliences</p>
-            <p className="p-1">Tailoring Services</p>
-            <p className="p-1">Cars for Hire</p>
-            <p className="p-1">Installation Services</p>
-            <p className="p-1">School Desk</p>
+            <p className="p-1">And many more</p>
+            
           </div>
-          
+          </Link>
 
         </div>
-        </Link>
+        
     </div>
       <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
